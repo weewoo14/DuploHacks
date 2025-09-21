@@ -1,5 +1,4 @@
 [build]
-  base = "DuploHacks 2025 Website"
   command = "npm install && npm run build"
   publish = "dist"
 
