@@ -12,7 +12,7 @@ A hackathon is an event where participants collaborate intensively on software p
 
 ## Event Details
 
-- **Date**: October 10-12, 2025
+- **Date**: Coming Soon
 - **Location**: To Be Announced
 - **Participants**: High school students across Canada
 - **Format**: In-person hackathon with workshops, mentorship, and prizes
