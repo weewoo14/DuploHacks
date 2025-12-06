@@ -23,6 +23,7 @@ const images = {
   Gursaaz: new URL('../assets/gursaaz.webp', import.meta.url).href,
   Bowen: new URL('../assets/bowen.png', import.meta.url).href,
   BillBasnet: new URL('../assets/Bill Basnet.webp', import.meta.url).href,
+  Siddarth: new URL('../assets/siddarthU.png', import.meta.url).href,
 };
 
 const teamData = [
@@ -190,6 +191,26 @@ const teamData = [
     group: 'Logistics',
     members: [
       { 
+        name: 'Weijie<br/>Wang', 
+        img: images.Weijie,
+        facts: [
+          '• Logistics Team Member',
+          '• Event coordination specialist',
+          '• Team collaboration expert'
+        ],
+        linkedin: 'https://www.linkedin.com/in/weijie-wang-a90a2a342/'
+      },
+      { 
+        name: 'Siddarth<br/>Ulaganathan', 
+        img: images.Siddarth,
+        facts: [
+          '• Logistics Team Member',
+          '• Operations coordinator',
+          '• Process optimization specialist'
+        ],
+        linkedin: 'https://ca.linkedin.com/in/siddarth-ulaganathan-538a62243'
+      },
+      { 
         name: 'Dasha<br/>Turetska', 
         img: images.Dasha,
         facts: [
@@ -218,19 +239,9 @@ const teamData = [
           '• Strategic planner'
         ],
         linkedin: 'https://www.linkedin.com/in/sarveshwarsenthilkumar/'
-      },
-      { 
-        name: 'Weijie<br/>Wang', 
-        img: images.Weijie,
-        facts: [
-          '• Logistics Team Member',
-          '• Event coordination specialist',
-          '• Team collaboration expert'
-        ],
-        linkedin: 'https://www.linkedin.com/in/weijie-wang-a90a2a342/'
-      },
-    ],
-  },
+      }
+    ]
+  }
 ];
 
 const Team = () => {
