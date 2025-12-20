@@ -31,16 +31,6 @@ const teamData = [
     group: 'Co-Leads & Founders',
     members: [
       { 
-        name: 'Jason<br/>Tran', 
-        img: images.JasonTran,
-        facts: [
-          '• Co-Founder of DuploHacks',
-          '• Passionate about AI and Machine Learning',
-          '• Loves solving complex problems'
-        ],
-        linkedin: 'https://www.linkedin.com/in/jason-tran-placeholder'
-      },
-      { 
         name: 'Sathvik<br/>Haridasu', 
         img: images.Sathvik,
         facts: [
@@ -51,14 +41,13 @@ const teamData = [
         linkedin: 'https://www.linkedin.com/in/sathvik-haridasu/'
       },
       { 
-        name: 'Simrik<br/>Shivas', 
-        img: images.Simrik,
+        name: 'Muhammad<br/>Ahmed', 
+        img: images.Muhammad,
         facts: [
-          '• Co-Founder of DuploHacks',
-          '• Skilled in UI/UX Design',
-          '• Creative problem solver'
+          '• Expert in financial modeling',
+          '• Strong analytical skills'
         ],
-        linkedin: 'https://www.linkedin.com/in/simrik-shivas'
+        linkedin: 'https://www.linkedin.com/in/muhammad-ahmed-placeholder'
       },
     ],
   },
@@ -101,6 +90,16 @@ const teamData = [
     group: 'Finance',
     members: [
       { 
+        name: 'William<br/>Lovegrove', 
+        img: images.Will,
+        facts: [
+          '• Finance Lead/Design Team Member',
+          '• Graphic design expert',
+          '• Visual communication specialist'
+        ],
+        linkedin: 'https://www.linkedin.com/in/william-lovegrove-572919310/'
+      },
+      { 
         name: 'Megh<br/>Patel', 
         img: images.Megh,
         facts: [
@@ -121,14 +120,14 @@ const teamData = [
         linkedin: 'https://www.linkedin.com/in/john-fu-placeholder'
       },
       { 
-        name: 'Muhammad<br/>Ahmed', 
-        img: images.Muhammad,
+        name: 'Simrik<br/>Shivas', 
+        img: images.Simrik,
         facts: [
-          '• Finance Team Member',
-          '• Expert in financial modeling',
-          '• Strong analytical skills'
+          '• Co-Founder of DuploHacks',
+          '• Skilled in UI/UX Design',
+          '• Creative problem solver'
         ],
-        linkedin: 'https://www.linkedin.com/in/muhammad-ahmed-placeholder'
+        linkedin: 'https://www.linkedin.com/in/simrik-shivas'
       },
       { 
         name: 'James<br/>Yang', 
@@ -165,26 +164,6 @@ const teamData = [
         ],
         linkedin: 'https://www.linkedin.com/in/bill-basnet-044252310/'
       },
-      { 
-        name: 'Gursaaz<br/>Gund', 
-        img: images.Gursaaz,
-        facts: [
-          '• Marketing Team Member',
-          '• Social media expert',
-          '• Content creation specialist'
-        ],
-        linkedin: 'https://www.linkedin.com/in/gursaaz-gund-placeholder'
-      },
-      { 
-        name: 'William<br/>Lovegrove', 
-        img: images.Will,
-        facts: [
-          '• Design Team Member',
-          '• Graphic design expert',
-          '• Visual communication specialist'
-        ],
-        linkedin: 'https://www.linkedin.com/in/william-lovegrove-572919310/'
-      },
     ],
   },
   {
@@ -199,16 +178,6 @@ const teamData = [
           '• Team collaboration expert'
         ],
         linkedin: 'https://www.linkedin.com/in/weijie-wang-a90a2a342/'
-      },
-      { 
-        name: 'Siddarth<br/>Ulaganathan', 
-        img: images.Siddarth,
-        facts: [
-          '• Logistics Team Member',
-          '• Operations coordinator',
-          '• Process optimization specialist'
-        ],
-        linkedin: 'https://ca.linkedin.com/in/siddarth-ulaganathan-538a62243'
       },
       { 
         name: 'Dasha<br/>Turetska', 

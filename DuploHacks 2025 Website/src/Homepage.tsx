@@ -51,7 +51,7 @@ export default function Homepage() {
                         <div className="event-details">
                             <div className="event-row">
                                 <img className="icon" src={calendarIcon} loading="lazy" />
-                                <span>Coming Soon...</span>
+                                <span>January 31 2026 - February 1 2026</span>
                                 <span className="separator">|</span>
                                 <img className="icon" src={timeIcon} loading="lazy" />
                                 <span>Applications Coming Soon</span>
