@@ -92,6 +92,15 @@ function Sponsors() {
           >
             <img className="sponsor-image codecrafters-logo" src={codeCraftersLogo} alt="CodeCrafters" loading="lazy" />
           </motion.a>
+            <motion.a
+                href="https://1password.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                variants={logoVariants}
+                whileHover="hover"
+            >
+                <img className="sponsor-image onepassword-logo" src={onePasswordLogo} alt="1Pasword" loading="lazy" />
+            </motion.a>
         </motion.div>
         <motion.div className="sponsors-row sponsors-row-bottom" variants={itemVariants}>
           <motion.a 
@@ -114,17 +123,6 @@ function Sponsors() {
           </motion.a>
         </motion.div>
 
-          <motion.div className="sponsors-row sponsors-row-bottom" variants={itemVariants}>
-              <motion.a
-                  href="https://1password.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  variants={logoVariants}
-                  whileHover="hover"
-              >
-                  <img className="sponsor-image onepassword-logo" src={onePasswordLogo} alt="1Pasword" loading="lazy" />
-              </motion.a>
-          </motion.div>
 
       </motion.div>
     </motion.div>
