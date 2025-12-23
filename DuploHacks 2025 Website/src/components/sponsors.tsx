@@ -5,6 +5,7 @@ import hackclubLogo from '../assets/hackclub.png';
 import codeCraftersLogo from '../assets/CodeCrafters.png';
 import interviewCakeLogo from '../assets/interviewcake.png';
 import youthCreativityFundLogo from '../assets/youthcreativityfund.png';
+import onePasswordLogo from '../assets/1password-logo.png';
 
 function Sponsors() {
   const containerRef = useRef(null);
@@ -112,6 +113,19 @@ function Sponsors() {
             <img className="sponsor-image youthcreativityfund-logo" src={youthCreativityFundLogo} alt="Youth Creativity Fund" loading="lazy" />
           </motion.a>
         </motion.div>
+
+          <motion.div className="sponsors-row sponsors-row-bottom" variants={itemVariants}>
+              <motion.a
+                  href="https://1password.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variants={logoVariants}
+                  whileHover="hover"
+              >
+                  <img className="sponsor-image onepassword-logo" src={onePasswordLogo} alt="1Pasword" loading="lazy" />
+              </motion.a>
+          </motion.div>
+
       </motion.div>
     </motion.div>
   );

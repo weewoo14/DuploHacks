@@ -227,6 +227,10 @@
     height: 125px;
     width: 250px;
   }
+  .onepassword-logo {
+      height: 125px;
+      width: 250px;
+  }
 }
 @media (max-width: 768px) {
   .sponsors-heading {
